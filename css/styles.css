@@ -30,13 +30,17 @@ h4 {
   font-weight: 400;
 }
 
+img {
+  width: 100%;
+}
+
 
 a:visited { /* visited link */
-  color: #2E8B57;
+  color: #000000;
 }
 
 a {
-  color: #2E8B57;
+  color: #000000;
   text-decoration: none; /* No underlining */
 }
 
@@ -55,7 +59,6 @@ a:active { /* selected link */
   color: #ffffff;
 }
 
-
 /* buttons */
 
 .button {
@@ -67,8 +70,8 @@ a:active { /* selected link */
   border-radius: 3px;
   border-bottom: 2px solid #3F704D; /* width of the border, type, color */
   transition: 0.2s opacity;
-  
 }
+
 
 .button.contact {
   background-color: transparent;
