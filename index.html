@@ -18,10 +18,10 @@
     <!-- For the header -->
     <header> 
       <!--For the navigation-->
-      <div>
-        <img src="img/mb/mblogo@1.jpg" alt="Mallory Brown" >
+      <div class="container">
+        <img src="img/mb/mblogo@1.jpg" alt="Mallory Brown" class="logo">
            <nav> 
-             <ul>
+             <ul class="navigation">
               <li><a href="index.html">Work</a></li>
               <li><a href="about.html" >About</a></li>
               <li><a href="#contact">Contact</a></li>
@@ -32,31 +32,38 @@
 
        <main>
         <!--For hero section-->
+        <hero>
         <div>
-             <div>
+             <div id="hero">
+              <div class="container">
                 <h1>Hi, I am Mallory Brown!<span> I am a UI designer based in Miami, FL</span></h1>
                 <p>I am here to solve problems and convert them into an aesthetically pleasing design for users and companies worldwide.</p>
              </div>
         </div>
+              </hero>
 
 
         <!--For work/projects-->
         <div>
-            <div>
+          <div id="work">
+            <div class="container">
                 <h2>My Work</h2>
-            </div>
+                  <div class="row">
 
               <!-- Project 1 -->
-              <div> <!--open row that holds 2 columns for project-->
-                </div> <!--open first column-->
-                    <picture>
+              <div id="work"> <!--open row that holds 2 columns for project-->
+                <div class="container">
+                <!--open first column-->
+                    <picture class="container">
                       <source srcset="img/asimplechef/asimplechefcover@1.jpg" media="(max-width:767px)">
                       <img src="img/asimplechef/asimplechefcover@2.jpg" alt="My Image">
                     </picture>
             </div> <!--end first column-->
             <div>
-              <div><!-- open second column (used for text) -->
+              <div id="work">
+              <div class="container"><!-- open second column (used for text) -->
                 <h3>A Simple Chef</h3><!-- heading for the project -->
+                  <div class="row">
                 <p> A food recipe app that allows the users to sift through all the available recipes and allows them to share and save their favorites. A responsive web app, available on all platforms</p>
                 <p><!-- open paragraph -->
                    My Skills: Figma, AdobeXD, Photoshop
@@ -66,29 +73,33 @@
             </div><!-- end row that holds (2) columns for project -->
 
             <!--Project 2-->
-            <div><!-- open row that holds (2) columns for project -->
-              <div><!-- open first column (used for image) -->
+            <div id="work"><!-- open row that holds (2) columns for project -->
+              <div class="container"><!-- open first column (used for image) -->
                 <picture>
                   <source srcset="img/yoga108/yoga108mockup@1.jpg" media="(max-width:767px)">
                   <img src="img/yoga108/yoga108mockup@2.jpg" alt="Yoga108">
                 </picture>
               </div><!-- end first column -->
-              <div><!-- open second column (used for text) -->
+              <div>
+              <div id="work">
+              <div class="container"><!-- open second column (used for text) -->
                 <h3>Yoga108</h3><!-- heading for the project -->
+                <div class="row">
                 <p><!-- open paragraph -->
                   Yoga108 is an app curated for those who want to have the seamless ability to sign up for ypga classes without a membership. This allows the user explore different Yoga studios and online classes.
                 </p><!-- end paragraph -->
                 <p><!-- open paragraph -->
                   My Skills: Figma, AdobeXD, Photoshop
                 </p><!-- end paragraph -->
-                <a href="yoga108.html" class="button" id=".button.a">Read more</a><!-- button or link label -->
+                <a href="yoga108.html" class="button">Read more</a><!-- button or link label -->
               </div><!-- end second column -->
             </div><!-- end row that holds (2) columns for project -->
     </main>
+  
     
       <!--for the footer-->
         <footer>
-      <div>
+      <div class="container">
       <h2>Get in Touch</h2>
       <p>Do you like my work and want to discuss opportunities? Please get in touch.</p> 
       <p>Call <a href="">005-904-4354</a></p>
