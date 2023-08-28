@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="author" content="Mallory Brown">
-    <meta name="description" content="This is the home page of my website">
+    <meta name="description" content="This is the about page of my website">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--<link href="img/fav/favicon.ico" rel="shortcut icon">-->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
@@ -11,10 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap" rel="stylesheet">
-      
     <title>About Mallory Brown</title>
   </head>
-
   <body id="about-page">
     <!-- For the header -->
 	<header>
@@ -25,79 +23,67 @@
             </a>
             <nav>
               <ul class="navigation">
-                <li class="active"><a href="index.html">Work</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="index.html">Work</a></li>
+                <li class="active"><a href="about.html">About</a></li>
                 <li><a href="#contact">Contact</a></li>
               </ul>
             </nav>
 		</div>
 	</header>
 
-  <main>
-
-    <!-- For the hero section -->
-    <div id="hero">
+    <main>
+        <!-- For the hero section -->
+        <div id="hero" style="margin-bottom: 40px;">
+            <div class="container">
+                <h1>Hi, I am Mallory Brown.<span>Scroll down to learn more about me!</span></h1>
+            </div>
+        </div>
         <div class="container">
-            <h1>Hi, I am Mallory Brown.<span>Scroll down to learn more about me!</span></h1>
+            <div><!--For the image, My Story and Skills and tools sections-->
+                <div>
+                    <div><!--For My Story and Skills and tools sections-->
+                        <div class="column col-lg-7"><!--Column one-->
+                            <h2>My story</h2>
+                            <img class="about-img" src="img/mbheadshot.jpg" alt="My Image">
+                            <p>Based in Miami, FL. I love to spend time with my family, my dog, being outdoors, cooking, and attending local yoga classes. My interest in seeing how others solve problems made my decision to transition into UI an easy one. 
+                            I enjoy the challenge of creating designs that best fit the needs of individuals, while at the same time, creating an aesthetically pleasing interface.</p>
+                            <p>As a UI designer, with a strong background in hospitality, I am experienced in understanding and solving guests needs. I excel at creating design solutions and executing them to make a positive impact for the user and the business.
+                             My passion for digital design and interfaces grew during the last couple years. I pursued further studies to improve my expertise in branding, color theory, and overall design.</p>
+                            <a class="button contact" href="files/cv.pdf" target="_blank">Download my resume</a>
+                        </div>
+                        <div class="column col-lg-8"><!--Column two-->
+                            <h2>Skills &amp; Tools</h2>
+                            <div class="column col-md-6"><!--Column two, row one-->
+                                <h3>Skills</h3>
+                                <ul>
+                                    <li>User interface</li>
+                                    <li>User research</li>
+                                    <li>Wireframing</li>
+                                    <li>Prototyping</li>
+                                    <li>Branding</li>
+                                    <li>Typography</li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="column col-md-6"><!--Column two, row two-->
+                                <h3>Tools</h3>
+                                <ul>
+                                    <li>Figma</li>
+                                    <li>Adobe XD</li>
+                                    <li>Sketch</li>
+                                    <li>Usability Hub</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-
-        <!-- About me section -->
-  <div id="about">
-  <div class="container">
-    <div class="row" style="border-bottom: 2px solid #4a4a4a; margin-bottom: 40px;"><!-- open row that holds (2) columns for project -->
-      <div class="column col-md-6 col-lg-7"><!-- open first column (used for image) -->
-        <picture><!--For students, the images below should be updated with real images-->
-          <source srcset="img/mbheadshot.jpg" media="(max-width:767px)">
-          <img src="img/mbheadshot.jpg" alt="My Headshot">
-        </picture>
-      </div><!-- end first column -->
-      <div class="column col-md-6 col-lg-5"><!-- open second column (used for text) -->
-        <h2>My Story</h2><!-- heading for the project -->
-        <p><!-- open paragraph -->
-          Based in Miami, FL. I love to spend time with my family, my dog, being outdoors, cooking, and attending local yoga classes. My interest in seeing how others solve problems made my decision to transition into UI an easy one. 
-          I enjoy the challenge of creating designs that best fit the needs of individuals, while at the same time, creating an aesthetically pleasing interface.        </p><!-- end paragraph -->
-        <p>As a UI designer, with a strong background in hospitality, I am experienced in understanding and solving guests needs. I excel at creating design solutions and executing them to make a positive impact for the user and the business.
-            My passion for digital design and interfaces grew during the last couple years. I pursued further studies to improve my expertise in branding, color theory, and overall design. 
-        </p>
-      </div><!-- end second column -->
-    </div><!-- end row that holds (2) columns for project -->
-  
-
-    <div class="row" style="border-bottom: 2px solid #4a4a4a; margin-bottom: 40px;"><!-- open row that holds (2) columns for project -->
-      <div class="column col-md-6 col-lg-7"><!-- open first column (used for image) -->
-        <picture><!--For students, the images below should be updated with real images-->
-          <source srcset="img/mb//uxdesignerphoto@1.jpg" media="(max-width:767px)">
-          <img src="img/mb/uxdesignerphoto@1.jpg" alt="UX Design Photo">
-        </picture>
-      </div><!-- end first column -->
-      <div class="column col-md-6 col-lg-5"><!-- open second column (used for text) -->
-        <h3>My Skills and Tools</h3><!-- heading for the project -->
-          <ul>
-            <li>User interface</li>
-            <li>User research</li>
-            <li>Wireframing</li>
-            <li>Prototyping</li>
-            <li>Branding</li>
-            <li>Typography</li>
-            <li>Figma</li>
-            <li>Adobe XD</li>
-            <li>Sketch</li>
-            <li>Usability Hub</li>
-        </ul>
-        </div>
-       <a href="files/cv.pdf" class="button contact" target="_blank">Download my CV</a>
-      </div><!-- end second column -->
-    <!-- end row that holds (2) columns for project -->
-    </div>
-  </div>
     </main>
-    
-    
 
- 
+
 <!-- For the footer  -->
-<footer id="contact">
+<footer id="contact" style="clear: both;">
   <div class="container">
           <h2>Get in touch</h2>
           <p>Do you like my work and want to discuss opportunities? Please get in touch.</p> 
@@ -124,5 +110,6 @@
       </div>
       
 </footer>
+<script src="js/scripts.js"></script>
 </body>
 </html>

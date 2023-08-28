@@ -48,9 +48,8 @@ img {
   width: 100%;
 }
 
-#about-page .about img {
-  float: right;
-}
+
+
 
 .container {
   max-width: 1200px;
@@ -227,6 +226,8 @@ nav > ul > li > a:visited {
 
 
 
+
+
 /*--------------------------------------------End Section---------------------------------------------*/
 /*-------------------------------------------Start Section---------------------------------------------*/
 /* Layout styling */
@@ -336,6 +337,10 @@ Medium devices (640px and larger)
     float: left;
     padding-bottom: 40px;
   }
+    
+  .about-img {
+        width: 50%; float: right; padding-left: 20px;
+    }
     
 }
 
