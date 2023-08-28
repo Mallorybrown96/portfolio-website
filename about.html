@@ -8,7 +8,6 @@
     <!--<link href="img/fav/favicon.ico" rel="shortcut icon">-->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap" rel="stylesheet">
@@ -16,28 +15,36 @@
     <title>About Mallory Brown</title>
   </head>
 
- <body class="container" id="about-page">
+  <body id="about-page">
     <!-- For the header -->
-    <header> 
-      <!--For the navigation-->
-      <div>
-           <img src="img/mb/mblogo@1.jpg" alt="Mallory Brown" class="logo">
-           <nav> 
-             <ul>
-              <li><a href="index.html">Work</a></li>
-              <li><a href="about.html" >About</a></li>
-              <li><a href="#contact">Contact</a></li>
-             </ul>
-          </nav>
-       </div> 
-       </header>
+	<header>
+		<!-- For the navigation -->
+		<div class="container">
+            <a href="index.html">
+			 <img src="img/mb/mblogo@1.jpg" class="logo" alt="Logo" >
+            </a>
+            <nav>
+              <ul class="navigation">
+                <li class="active"><a href="index.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+		</div>
+	</header>
 
-       <!--Hero section-->
-       <div class="contatiner">
-        <h1>About Me</h1>
+  <main>
+
+    <!-- For the hero section -->
+    <div id="hero">
+        <div class="container">
+            <h1>Hi, I am Mallory Brown.<span>Scroll down to learn more about me!</span></h1>
         </div>
+    </div>
 
-
+        <!-- About me section -->
+  <div id="about">
+  <div class="container">
     <div class="row" style="border-bottom: 2px solid #4a4a4a; margin-bottom: 40px;"><!-- open row that holds (2) columns for project -->
       <div class="column col-md-6 col-lg-7"><!-- open first column (used for image) -->
         <picture><!--For students, the images below should be updated with real images-->
@@ -53,9 +60,9 @@
         <p>As a UI designer, with a strong background in hospitality, I am experienced in understanding and solving guests needs. I excel at creating design solutions and executing them to make a positive impact for the user and the business.
             My passion for digital design and interfaces grew during the last couple years. I pursued further studies to improve my expertise in branding, color theory, and overall design. 
         </p>
-        <a href="#" class="button">Read more</a><!-- button or link label -->
       </div><!-- end second column -->
     </div><!-- end row that holds (2) columns for project -->
+  
 
     <div class="row" style="border-bottom: 2px solid #4a4a4a; margin-bottom: 40px;"><!-- open row that holds (2) columns for project -->
       <div class="column col-md-6 col-lg-7"><!-- open first column (used for image) -->
@@ -65,7 +72,7 @@
         </picture>
       </div><!-- end first column -->
       <div class="column col-md-6 col-lg-5"><!-- open second column (used for text) -->
-        <h3>My Skills</h3><!-- heading for the project -->
+        <h3>My Skills and Tools</h3><!-- heading for the project -->
           <ul>
             <li>User interface</li>
             <li>User research</li>
@@ -73,23 +80,22 @@
             <li>Prototyping</li>
             <li>Branding</li>
             <li>Typography</li>
+            <li>Figma</li>
+            <li>Adobe XD</li>
+            <li>Sketch</li>
+            <li>Usability Hub</li>
         </ul>
         </div>
-        <div>
-          <h3>Tools</h3>
-          <ul>
-               <li>Figma</li>
-               <li>Adobe XD</li>
-               <li>Sketch</li>
-               <li>Usability Hub</li>
-          </ul>
-       </div>
-       <a href="files/cv.pdf" class="button contact">Download my CV</a>
+       <a href="files/cv.pdf" class="button contact" target="_blank">Download my CV</a>
       </div><!-- end second column -->
     <!-- end row that holds (2) columns for project -->
+    </div>
+  </div>
+    </main>
+    
+    
 
  
-<!-- For the footer  -->
 <!-- For the footer  -->
 <footer id="contact">
   <div class="container">
@@ -104,17 +110,12 @@
           <!--Social Media Layout and Placeholders-->
           <!--For students, the images below should be updated with real svgs and links should be updated-->
               <li>
-                  <a href="https://www.linkedin.com/in/mallorybrown96/" target="_blank">
+                  <a href="https://www.linkedin.com/in/mallorybrown96/-URL" target="_blank">
                       <img src="img/socialicons/linkedinicon@1.jpg" alt="LinkedIn">
                   </a>
               </li>
               <li>
-                  <a href="TWITTER-URL" target="_blank">
-                      <img src="img/socialicons/twittericon@1.jpg" alt="Twitter">
-                  </a>
-              </li>
-              <li>
-                  <a href="https://www.behance.net/mallorybrown4">
+                  <a href="https://www.behance.net/mallorybrown4" target="_blank">
                       <img src="img/socialicons/behanceicon@1.jpg" alt="Behance">
                   </a>
               </li>

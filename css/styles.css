@@ -48,6 +48,10 @@ img {
   width: 100%;
 }
 
+#about-page .about img {
+  float: right;
+}
+
 .container {
   max-width: 1200px;
 }
@@ -220,6 +224,7 @@ nav > ul > li > a:visited {
   height: 32px;
   width: 32px;
 }
+
 
 
 /*--------------------------------------------End Section---------------------------------------------*/
