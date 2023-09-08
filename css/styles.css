@@ -140,8 +140,8 @@ header {
   text-align: center;
 }
 
-#yoga108-page .container img{
-  position: center
+#yoga108-page .container picture{
+  position: center;
 }
 
 /*style the logo*/
@@ -159,7 +159,6 @@ nav {
 nav > ul {
   list-style-type: none;
   padding: 0;
-  margin: 0;
 }
 
 nav > ul > li > a {
@@ -167,6 +166,11 @@ nav > ul > li > a {
   text-transform: uppercase;
   font-weight: 700;
   color: #4a4a4a;
+}
+
+nav {
+  width: auto;
+  float: right;
 }
 
 nav > ul > li > a:visited {
@@ -373,7 +377,6 @@ Medium devices (640px and larger)
   .about-img {
         width: 50%; float: right; padding-left: 20px;
     }
-
 
 
 }
