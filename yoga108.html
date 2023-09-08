@@ -5,10 +5,10 @@
     <meta name="author" content="Mallory Brown">
     <meta name="description" content="This is the home page of my website">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/565cb3ebfc.js" crossorigin="anonymous"></script>
     <!--<link href="img/fav/favicon.ico" rel="shortcut icon">-->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap" rel="stylesheet">
@@ -17,32 +17,33 @@
   </head>
   <body id="yoga108-page">
     <!-- For the header -->
-	<header>
-		<!-- For the navigation -->
-		<div class="container">
-            <a href="index.html">
-			 <img src="img/mb/mblogo@1.jpg" class="logo" alt="Logo" >
-            </a>
-            <nav>
-              <ul class="navigation">
-                <li class="active"><a href="index.html">Work</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </nav>
-		</div>
-	</header>
+    <header>
+      <!-- For the navigation -->
+      <div class="container">
+        <div class="navtoggle" id="myNavtoggle">
+              <a href="index.html">
+         <img src="img/mb/mblogo@1.jpg" class="logo" alt="Logo">
+              </a>
+              <nav>
+                <ul class="navigation">
+                  <li class="active"><a href="index.html">Work</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                  <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>             
+                 </ul>
+              </nav>
+            </div>
+      </div>
+    </header>
 
   <main>
     <!-- For the hero section -->
     <div id="hero">
         <div class="container">
-          <center>
             <picture><!--For students, the images below should be updated with real images-->
               <source srcset="img/yoga108/yoga108@1.png" media="(max-width:767px)" style="width:200px;height:200px;">
-              <img src="img/yoga108/yoga108@2.png" alt="My Image" style="width:200px;height:200px;">
+              <img src="img/yoga108/yoga108@2.png" alt="My Image" style="width:200px;height:200px;" position="center">
             </picture>
-          </center>
               <p>Yoga108 is a new app for individuals who want to learn yoga, share the practice, and easily access yoga classes from studios and virtual remote videos. Users will have the ability to pay for classes/memberships with their linked credit card.              
             </p>
         </div>
@@ -132,6 +133,10 @@
       </div>
       
 </footer>
+<script
+src="https://code.jquery.com/jquery-3.7.1.min.js"
+integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+crossorigin="anonymous"></script>
 <script src="js/scripts.js"></script>
 </body>
 </html>
